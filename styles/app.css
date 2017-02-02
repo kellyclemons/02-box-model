@@ -39,14 +39,12 @@ header {
 .top-nav__right {
   margin: 1rem 0;
   float: right;
-  margin: 1rem 0;
-  float: right
 }
 
 .top-nav__item {
   padding: 0 1rem;
   display: inline-block; /* this makes people and repos in line with each other */
-  font-size: 1.0rem; /* this is the font size of people and repos */
+  font-size: 1rem; /* this is the font size of people and repos */
 }
 
 
@@ -100,19 +98,13 @@ main {
 }
 
 .repo__item {
-  padding: 0;
-}
-
-.repo__item {
   padding: .25rem 1rem;
     margin: 0;
 
   overflow: auto;
 }
 
-.repo__item:last-child {
-  border-bottom: none;
-}
+
 
 .repo__item-left {
   float: right;
@@ -128,10 +120,10 @@ main {
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  background: red;
+  background: #ff5c00;
 }
 
-.repo__item-dot {
+.repo__item-dot-css {
   display: inline-block;
   width: .75rem;
   height: .75rem;
@@ -139,39 +131,61 @@ main {
   background: red;
 }
 
-.repo__item-dot {
+.repo__item-dot-javascript {
   display: inline-block;
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  background: red;
+  background: yellow;
 }
 
-.repo__item-dot {
+.repo__item-dot-python {
   display: inline-block;
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  background: red;
+  background: green;
 }
 
-.repo__item-dot {
+.repo__item-dot-ruby {
   display: inline-block;
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  background: red;
+  background: pink;
 }
 
-.repo__item-dot {
+.repo__item-dot-php {
   display: inline-block;
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  background: red;
+  background: #00ffa8;
 }
 
+.repo__item-dot-swift {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #ff8a00;
+}
 
+.repo__item-dot-objc {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #0029ff;
+}
+
+.repo__item-dot-typescript {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: #008f64;
+}
 
 .repo-name {
   float: left;
