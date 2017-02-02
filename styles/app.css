@@ -9,30 +9,192 @@ ul {
   list-style: none;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-.profile {
+img {
+  max-width: 100%;
+}
+
+/* Header */
+
+header {
+  background: #db2664;
+  color: white;
+}
+
+.top-nav {
+  overflow: auto;
+  padding: 0 1rem; /* this does the padding next to pop githubs*/
+  margin: 0;
+}
+
+.top-nav__left {
+  float: left;
+  margin: 1rem 0;
+}
+
+.top-nav__right {
+  margin: 1rem 0;
+  float: right;
+  margin: 1rem 0;
+  float: right
+}
+
+.top-nav__item {
+  padding: 0 1rem;
+  display: inline-block; /* this makes people and repos in line with each other */
+  font-size: 1.0rem; /* this is the font size of people and repos */
+}
+
+
+main {
+  padding-top: 1rem;
+}
+
+.grid {
+  overflow: auto;
+  width: calc(100% / 3 - 1rem - 1rem);
+  float: left;
+  margin: 1rem;
+  min-width: 20rem;
+  border: 0.1rem solid #aaa;
+  border-radius: .5rem;
+}
+
+.user-info {
+  padding: 1rem;
+  overflow: auto;
+  border-bottom: .1rem solid #aaa;
+}
+
+.user-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  float:left;
+}
+
+.user-profile__text {
+  margin-left: 1rem;
+  float:left;
+}
+
+.user-profile__name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.user-profile__username {
+  color: #aaa;
+  font-size: .75rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.repo {
+  padding: 0;
+  margin: 0;
+}
+
+.repo__item {
+  padding: 0;
+}
+
+.repo__item {
+  padding: .25rem 1rem;
+    margin: 0;
+
+  overflow: auto;
+}
+
+.repo__item:last-child {
+  border-bottom: none;
+}
+
+.repo__item-left {
+  float: right;
+}
+
+.language {
+  display: inline-block;
+  padding-left: 01rem;
+}
+
+.repo__item-dot {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  color: red;
+}
+
+
+
+
+.repo-name {
+  float: left;
+}
+
+
+
+.headline {
+  background-color: #00c2ff; /* color of headline bar */
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.top-nav {
+  overflow: auto;
+}
+
+.headline--title {
+  float: left;
+  line-height: 3rem; /* make sure this is the same height as top-nav__right */
+  margin: 0;
+}
+
+.top-nav__right {
+  float: right;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.blog {
 
 }
 
-.header {
+.wrapper {
 
-}
-
-.nav-bar__left {
-
-}
-
-.nav-bar__right {
-float: right;
 }
 
 .grid {
 
 }
 
-.grid__item {
+.grid--profile {
+
+}
+
+.grid--profile__title {
+
+}
+
+.photo-left {
+
+}
+
+.name-right {
+
+
+}
+
+.name {
+
+}
+
+.username {
 
 }

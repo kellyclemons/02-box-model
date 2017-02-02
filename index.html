@@ -8,13 +8,13 @@
 </head>
 
 <body>
-  <header>
+  <header class="headline">
     <div class="container">
       <nav class="top-nav">
-        <h1 class="top-nav__left">Popular Githubs</h1>
+        <h1 class="headline--title">Popular Github</h1>
         <ul class="top-nav__right">
-          <li class="top-nav__item"><a href="#">People</a></li>
-          <li class="top-nav__item"><a href="#">Repos</a></li>
+          <li class="top-nav__item">People</li>
+          <li class="top-nav__item">Repos</li>
         </ul>
       </nav>
     </div>
@@ -23,105 +23,206 @@
   <main>
     <div class="container">
       <div class="grid">
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
-              </div>
-            </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
+        <article class="grid__item">
+          <div class="user-info">
+            <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+            <div class="user-info__text">
+              <h2 class="user-info__name">Kelly Clemons</h2>
+              <h3 class="user-info__username">kellyclemons</h3>
             </div>
           </div>
-        </div>
 
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
-              </div>
-            </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
+          <div class="repo">
+            <div class="repo__item">
+              <p class="repo-name">01-html-introduction</p>
+              <div class="repo__item-left">
+                <span class="repo__item-dot"></span>
+                <p class="language">html</p>
               </div>
             </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
+            <div class="repo__item">
+              <p class="repo-name">lesson-03</p>
+              <div class="repo__item-left">
+                <span class="repo__item-dot HTML"></span>
+                <p class="language">css</p>
               </div>
             </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
-            </div>
           </div>
-        </div>
-
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
-              </div>
-            </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid__item">
-          <div class="user">
-            <div class="user-profile">
-              <img src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
-              <div class="user-profile__text">
-                <h2 class="user-profile__name">Kelly Clemons</h2>
-                <h3 class="user-profile__username">kellyclemons</h3>
-              </div>
-            </div>
-            <div class="repo-item">
-              <p class="repo-item__name">tolk</p>
-              <p class="repo-item__language"><span class="repo-item__dot"></span> HTML</p>
-            </div>
-          </div>
-        </div>
+        </article>
       </div>
     </div>
-  </main>
 
+
+      <div class="container">
+        <div class="grid">
+          <article class="grid__item">
+            <div class="user-info">
+              <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+              <div class="user-info__text">
+                <h2 class="user-info__name">Name</h2>
+                <h3 class="user-info__username">Username</h3>
+              </div>
+            </div>
+
+
+            <div class="repo">
+              <div class="repo__item">
+                <p class="repo-name">01-html-introduction</p>
+                <div class="repo__item-left">
+                  <span class="repo__item-dot"></span>
+                  <p class="language">html</p>
+                </div>
+              </div>
+
+              <div class="repo__item">
+                <p class="repo-name">lesson-03</p>
+                <div class="repo__item-left">
+                  <span class="repo__item-dot HTML"></span>
+                  <p class="language">css</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+        <div class="container">
+          <div class="grid">
+            <article class="grid__item">
+              <div class="user-info">
+                <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+                <div class="user-info__text">
+                  <h2 class="user-info__name">Name</h2>
+                  <h3 class="user-info__username">Username</h3>
+                </div>
+              </div>
+
+
+              <div class="repo">
+                <div class="repo__item">
+                  <p class="repo-name">01-html-introduction</p>
+                  <div class="repo__item-left">
+                    <span class="repo__item-dot"></span>
+                    <p class="language">html</p>
+                  </div>
+                </div>
+
+                <div class="repo__item">
+                  <p class="repo-name">lesson-03</p>
+                  <div class="repo__item-left">
+                    <span class="repo__item-dot HTML"></span>
+                    <p class="language">css</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+          <div class="container">
+            <div class="grid">
+              <article class="grid__item">
+                <div class="user-info">
+                  <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+                  <div class="user-info__text">
+                    <h2 class="user-info__name">Name</h2>
+                    <h3 class="user-info__username">Username</h3>
+                  </div>
+                </div>
+
+
+                <div class="repo">
+                  <div class="repo__item">
+                    <p class="repo-name">01-html-introduction</p>
+                    <div class="repo__item-left">
+                      <span class="repo__item-dot"></span>
+                      <p class="language">html</p>
+                    </div>
+                  </div>
+
+                  <div class="repo__item">
+                    <p class="repo-name">lesson-03</p>
+                    <div class="repo__item-left">
+                      <span class="repo__item-dot HTML"></span>
+                      <p class="language">css</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+            <div class="container">
+              <div class="grid">
+                <article class="grid__item">
+                  <div class="user-info">
+                    <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+                    <div class="user-info__text">
+                      <h2 class="user-info__name">Name</h2>
+                      <h3 class="user-info__username">Username</h3>
+                    </div>
+                  </div>
+
+
+                  <div class="repo">
+                    <div class="repo__item">
+                      <p class="repo-name">01-html-introduction</p>
+                      <div class="repo__item-left">
+                        <span class="repo__item-dot"></span>
+                        <p class="language">html</p>
+                      </div>
+                    </div>
+
+                    <div class="repo__item">
+                      <p class="repo-name">lesson-03</p>
+                      <div class="repo__item-left">
+                        <span class="repo__item-dot HTML"></span>
+                        <p class="language">css</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+
+              <div class="container">
+                <div class="grid">
+                  <article class="grid__item">
+                    <div class="user-info">
+                      <img class="user-image" src="https://avatars0.githubusercontent.com/u/24512326?v=3&u=9af0064896804195010112d8b80a445c7c1ebba8&s=400" alt="">
+                      <div class="user-info__text">
+                        <h2 class="user-info__name">Name</h2>
+                        <h3 class="user-info__username">Username</h3>
+                      </div>
+                    </div>
+
+
+                    <div class="repo">
+                      <div class="repo__item">
+                        <p class="repo-name">01-html-introduction</p>
+                        <div class="repo__item-left">
+                          <span class="repo__item-dot"></span>
+                          <p class="language">html</p>
+                        </div>
+                      </div>
+
+                      <div class="repo__item">
+                        <p class="repo-name">lesson-03</p>
+                        <div class="repo__item-left">
+                          <span class="repo__item-dot HTML"></span>
+                          <p class="language">css</p>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+</main>
 </body>
 
 </html>
