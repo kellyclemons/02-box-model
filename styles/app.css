@@ -56,7 +56,7 @@ main {
 
 .grid {
   overflow: auto;
-  width: calc(100% / 3 - 1rem - 1rem);
+  width: calc(100% / 3 - 2rem - 2rem);
   float: left;
   margin: 1rem;
   min-width: 20rem;
@@ -73,23 +73,23 @@ main {
 .user-image {
   height: 100px;
   width: 100px;
-  border-radius: 5%;
-  float:left;
+  border-radius: 20%;
+  float: left;
 }
 
-.user-profile__text {
+.user-info__text {
   margin-left: 1rem;
   float:left;
 }
 
-.user-profile__name {
-  font-size: 1rem;
+.user-info__name {
+  font-size: 1.5rem;
   margin: 0;
 }
 
-.user-profile__username {
-  color: #aaa;
-  font-size: .75rem;
+.user-info__username {
+  color: #8e8e8e;
+  font-size:  1rem;
   font-weight: 500;
   margin: 0;
 }
@@ -120,7 +120,15 @@ main {
 
 .language {
   display: inline-block;
-  padding-left: 01rem;
+  padding-left: 0.1rem;
+}
+
+.repo__item-dot-html {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: red;
 }
 
 .repo__item-dot {
@@ -128,9 +136,40 @@ main {
   width: .75rem;
   height: .75rem;
   border-radius: 50%;
-  color: red;
+  background: red;
 }
 
+.repo__item-dot {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: red;
+}
+
+.repo__item-dot {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: red;
+}
+
+.repo__item-dot {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: red;
+}
+
+.repo__item-dot {
+  display: inline-block;
+  width: .75rem;
+  height: .75rem;
+  border-radius: 50%;
+  background: red;
+}
 
 
 
@@ -160,41 +199,4 @@ main {
   float: right;
   line-height: 3rem;
   margin: 0;
-}
-
-.blog {
-
-}
-
-.wrapper {
-
-}
-
-.grid {
-
-}
-
-.grid--profile {
-
-}
-
-.grid--profile__title {
-
-}
-
-.photo-left {
-
-}
-
-.name-right {
-
-
-}
-
-.name {
-
-}
-
-.username {
-
 }
