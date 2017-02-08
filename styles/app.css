@@ -9,11 +9,6 @@ ul {
   list-style: none;
 }
 
-.container {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
 img {
   max-width: 100%;
 }
@@ -24,6 +19,11 @@ header {
   background: #db2664;
   color: white;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 
 .top-nav {
   overflow: auto;
@@ -53,6 +53,7 @@ main {
 }
 
 .grid {
+  max-width: 90%;
   overflow: auto;
   width: calc(100% / 3 - 2rem - 2rem);
   float: left;
@@ -60,6 +61,10 @@ main {
   min-width: 20rem;
   border: 0.1rem solid #aaa;
   border-radius: .5rem;
+}
+
+.grid__item {
+  align: center;
 }
 
 .user-info {
