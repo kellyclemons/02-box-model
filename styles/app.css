@@ -76,14 +76,13 @@ main {
 }
 
 .user-image {
-  height: 100px;
-  width: 100px;
+  width: 5rem;
   border-radius: 20%;
   float: left;
 }
 
 .user-info__text {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   float:left;
 }
 
